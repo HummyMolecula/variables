@@ -1,9 +1,7 @@
-number = 5
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
 
-print(number)
-print(number + 2)
-print(str(number) + '2')
-
-number = 8
-
-print(number)
+print("Result:", num1 + num2)
+print("Result:", num1 - num2)
+print("Result:", num1 / num2)
+print("Result:", num1 * num2)
